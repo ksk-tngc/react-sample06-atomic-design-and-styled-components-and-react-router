@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+## 概要
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Atomic Design によるコンポーネント分割のサンプルです。  
+スタイルには styled components を、ルーティングには React Router を使用します。
 
-## Available Scripts
 
-In the project directory, you can run:
+## レンダリング
 
-### `yarn start`
+### トップページ
+<img width="600" src="https://user-images.githubusercontent.com/59589496/138184731-c12fb022-6be8-435a-ad16-cd575725cb5e.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### ユーザ一覧
+<img width="600" src="https://user-images.githubusercontent.com/59589496/138185045-0d90e4c1-a84b-43b8-8f7d-d9791f18ccd0.png">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p></p>
 
-### `yarn test`
+<img width="600" src="https://user-images.githubusercontent.com/59589496/138185177-955d2287-3f2f-4fce-ab59-516b223401f2.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## フォルダ構成
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="320" src="https://user-images.githubusercontent.com/59589496/138186440-9c439e0e-9f3b-4207-826f-4cd3437c8ff0.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 使用ライブラリ
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* `styled-components@5.3.1`
+* `react-router-dom@5.2.0`
+* `react-icons@4.3.1`
